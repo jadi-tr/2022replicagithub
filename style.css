@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@font-face {
+  font-family: AstroSpace;
+  src: url(/fonts/AstroSpace.ttf);
+}
+
+body {
+  margin: 0;
+  padding : 0;
+  font-family: "Montserrat", sans-serif;
+background: linear-gradient(315deg, rgba(80,24,93,1) 12%,
+ rgba(4,8,18,1) 47%, rgba(5,26,61,1) 78%, rgba(5,39,92,1) 100%);
+
+}
+
+
+header {
+  background-color: transparent ;
+  
+ 
+}
+
+.main-nav {
+  height: 90px;
+  
+}
+
+.logo {
+  color: white;
+  margin-top: 5px;
+  width: 100px;
+  
+}
+h1{
+  color: white;
+  font-size: 55px;
+  font-family: "Alliance1","Alliance1Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";";
+ font-weight: bold;
+}
+
+h2{
+  color: #8193b2;
+  font-weight: lighter;
+  font-size: 25px
+  
+}
+.lets{
+  
+ 
+  padding-left: 25px;
+  
+}
+
+
+
+.up{
+  
+color: white;
+font-weight: bold;
+font-size: medium;
+  background-color: #2EA44F;
+  padding: 15px 35px;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+  border-bottom: none;
+  margin-top: -60px
+  
+}
+.up:houver {
+  background-color: grey;
+  color: white;
+  border-bottom: none;}
+  
+.bot{
+  color: white;
+  font-family: none;
+background-color: transparent;
+border-color: #e7e7e7;
+border-radius: 8px;
+padding: 8px 15px;
+margin-left: 50px;
+border: 2px solid;
+cursor: pointer;
+  
+}
+.bot:hover {
+ 
+}
+
+.container {
+position: relative;
+}
+
+#image {
+  margin-top: -190px;
+margin-left: 830px;
+}
+#jorge{
+margin-left: 978px;
+margin-top: -959px;
+}
+#tuca{
+  
+  background-color: white;
+  height: 779px;
+ margin-top: -95px;
+
+}
+#texto {
+position: absolute;
+font-size: 32px;
+left: 50px;
+top: 135px;
+}
+
+
+input{
+  
+  padding: 15px 80px;
+  border-radius: 10px;
+  margin-left:4px;
+  
+}
+  .mil li{
+    font-size: 23px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",
+    Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";;
+    color:white;
+    display: inline-block;
+    text-indent: 50px;
+    margin-left:5px;
+    
+  
+  }
+  .dev li{
+    font-size:18px;
+    margin-left: -25px;
+    text-indent: 50px;
+    display: inline-block;
+    color:  rgba(255,255,255,.7);
+  
+  }
+
+
+
+   .principal{
+  float: right;
+  margin-top: -500px;
+
+}
+.navlinks {
+  list-style: none;
+  float: left;
+  line-height: 90px;
+  margin: 0px;
+  padding: 0;
+}
+
+.navlinks li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.navlinks li a {
+  
+  color: grey;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s linear 0s;
+}
+
+.navlinks li a:hover {
+  color: grey;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #7ebcb9;
+}
+
+
+#check {
+  display: none;
+}
+
+.menu-btn {
+  font-size: 25px;
+  color: white;
+  float: right;
+  line-height: 70px;
+  margin-right: 40px;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .navlinks {
+    position: fixed;
+    width: 95%;
+    height: 100vh;
+    text-align: left;
+    transition: all 0.5s;
+    right: -100%;
+    background: white;
+    border-radius: 10px;
+    
+  }
+
+  .navlinks li {
+    display: block;
+  }
+
+  .navlinks li a {
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+
+  .navlinks li a:hover {
+    border-bottom: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  #check:checked ~ .navlinks {
+    right: 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo {
+    
+    margin-right:5px;
+    width:  60px;
+    height: 40px;
+   
+   
+  }
+
+  .menu-btn {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  .menu-btn:focus {
+    color: yellow;
+  }
+}
+
+ 
